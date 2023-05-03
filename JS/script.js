@@ -27,4 +27,10 @@ const imgElements = [...document.getElementsByTagName("img")];
 
 imgElements.forEach( (img)=>{
     console.log(img.src)
-} )
+} );
+
+const botao = document.querySelector("div > button");
+
+botao.addEventListener("click", ()=>{
+    alert("TCHAU!");
+});
